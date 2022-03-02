@@ -26,4 +26,4 @@ generated_dir = './collection'
 for filename in sorted(os.listdir(generated_dir)):
     file_path = os.path.join(generated_dir, filename)
     images.append(imageio.imread(file_path))
-imageio.mimsave('./collection/collection.gif', images, duration=0.3)
+imageio.mimsave('./collection.gif', images, duration=0.5)
