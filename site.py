@@ -26,6 +26,8 @@ if st.button('Random generate'):
     fourth_step = Image.alpha_composite(third_step, hat)
     final = Image.alpha_composite(fourth_step, face)
 
-    final.save('./collection/random.png')
-    st.image(Image.open("./collection/random.png"))
-    st.markdown(imagedownload('./collection/random.png'), unsafe_allow_html=True)
+    final.save('./random.png')
+
+st.image(Image.open("./random.png"))
+st.markdown(imagedownload('./random.png'), unsafe_allow_html=True)
+
