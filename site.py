@@ -12,8 +12,36 @@ def imagedownload(filename):
     href = f'<a href="data:image/png;base64,{b64}" download={filename}>Download Image</a>'
     return href
 
-project_names = ['Crazy Balloon', 'Tennis Ball']
+project_names = ['Tennis Ball', 'Crazy Balloon']
 project = st.radio("Project Select", project_names)
+
+if project == 'Tennis Ball':
+    st.subheader(project)
+
+    list_background = ['pink', 'green', 'blue', 'rice', 'yellow']
+    list_body = ['default']
+    list_effect = ['default', 'fire', 'fly', 'puddle', 'court-line']
+    list_face = ['smile', 'cry', 'dizzy', 'kawaii-smile', 'cool', 'surprised']
+
+    col1, col2 = st.columns(2)
+
+    option_face = col1.selectbox('face', list_face)
+    option_body = col1.selectbox('ball', list_body)
+    option_effect = col1.selectbox('effect', list_effect)
+    option_background = col1.selectbox('background', list_background)
+
+    background = Image.open(r'png/tennis-ball/background/%s.png' % option_background)
+    effect = Image.open(r'png/tennis-ball/effect/%s.png' % option_effect)
+    body = Image.open(r'png/tennis-ball/body/%s.png' % option_body)
+    face = Image.open(r'png/tennis-ball/face/%s.png' % option_face)
+
+    first_step = Image.alpha_composite(background, effect)
+    second_step = Image.alpha_composite(first_step, body)
+    final = Image.alpha_composite(second_step, face)
+
+    final.save('./tennis.png')
+    col2.markdown(imagedownload('./tennis.png'), unsafe_allow_html=True)
+    col2.image(Image.open("./tennis.png"))
 
 if project == 'Crazy Balloon':
     st.subheader('Crazy Balloon')
@@ -34,9 +62,3 @@ if project == 'Crazy Balloon':
         final.save('./random.png')
     st.image(Image.open("./random.png"))
     st.markdown(imagedownload('./random.png'), unsafe_allow_html=True)
-
-if project == 'Tennis Ball':
-    st.subheader(project)
-
-
-
