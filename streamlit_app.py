@@ -30,6 +30,12 @@ if project == 'Tennis Ball':
     option_effect = col1.selectbox('effect', list_effect)
     option_background = col1.selectbox('background', list_background)
 
+    if col2.button('Randomize'):
+        option_face = list_face[random.randint(0, len(list_face)-1)]
+        option_body = list_body[random.randint(0, len(list_body)-1)]
+        option_effect = list_effect[random.randint(0, len(list_effect)-1)]
+        option_background = list_background[random.randint(0, len(list_background)-1)]
+
     background = Image.open(r'png/tennis-ball/background/%s.png' % option_background)
     effect = Image.open(r'png/tennis-ball/effect/%s.png' % option_effect)
     body = Image.open(r'png/tennis-ball/body/%s.png' % option_body)
@@ -40,8 +46,8 @@ if project == 'Tennis Ball':
     final = Image.alpha_composite(second_step, face)
 
     final.save('./tennis.png')
-    col2.markdown(imagedownload('./tennis.png'), unsafe_allow_html=True)
     col2.image(Image.open("./tennis.png"))
+    col2.write(imagedownload('./tennis.png'), unsafe_allow_html=True)
 
 if project == 'Crazy Balloon':
     st.subheader('Crazy Balloon')
@@ -61,4 +67,4 @@ if project == 'Crazy Balloon':
 
         final.save('./random.png')
     st.image(Image.open("./random.png"))
-    st.markdown(imagedownload('./random.png'), unsafe_allow_html=True)
+    st.write(imagedownload('./random.png'), unsafe_allow_html=True)
