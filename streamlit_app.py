@@ -21,26 +21,32 @@ if project == 'Foxiez':
     list_background = ['rice', 'pink', 'yellow', 'green', 'blue-dots', 'green-dots', 'yellow-dots', 'snow']
     list_expressions = ['default-smile', 'eyes-closed', 'frown', 'kawaii-smile', 'sad', 'sleepy', 'sophisticated', 'wink']
     list_hats = ['none', 'brim-bucket', 'bucket', 'mushroom', 'strawhat']
-    list_body = ['body']
+    list_clothings = ['default-body', 'apron', 'blue-collar-shirt', 'blue-tie', 'fish-tshirt', 'red-collar-shirt', 'scarf']
 
     col1, col2 = st.columns(2)
     option_expressions = col1.selectbox('Expressions', list_expressions)
     option_hats = col1.selectbox('Hats', list_hats)
+    option_clothings = col1.selectbox('Clothes', list_clothings)
     option_background = col1.selectbox('Background', list_background)
 
     if col2.button('Randomize'):
         option_expressions = list_expressions[random.randint(0, len(list_expressions)-1)]
         option_hats = list_hats[random.randint(0, len(list_hats)-1)]
+        option_clothings = list_clothings[random.randint(0, len(list_clothings)-1)]
         option_background = list_background[random.randint(0, len(list_background)-1)]
 
     background = Image.open(r'png/foxie/background/%s.png' % option_background)
-    body = Image.open(r'png/foxie/body.png')
+    clothes = Image.open(r'png/foxie/clothings/%s.png' % option_clothings)
     hat = Image.open(r'png/foxie/hats/%s.png' % option_hats)
     expression = Image.open(r'png/foxie/expressions/%s.png' % option_expressions)
+    head = Image.open(r'png/foxie/default-head.png')
+    ear = Image.open(r'png/foxie/default-ears.png')
 
-    first_step = Image.alpha_composite(background, body)
-    second_step = Image.alpha_composite(first_step, hat)
-    final = Image.alpha_composite(second_step, expression)
+    step1 = Image.alpha_composite(background, clothes)
+    step2 = Image.alpha_composite(step1, ear)
+    step3 = Image.alpha_composite(step2, head)
+    step4 = Image.alpha_composite(step3, hat)
+    final = Image.alpha_composite(step4, expression)
 
     final.save('./foxie.png')
     col2.image(Image.open("./foxie.png"))
