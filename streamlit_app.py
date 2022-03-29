@@ -2,7 +2,6 @@ from PIL import Image
 import random
 import streamlit as st
 import base64
-import os
 
 st.title("Generate your own avatar :dog:")
 
