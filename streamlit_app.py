@@ -2,6 +2,7 @@ from PIL import Image
 import random
 import streamlit as st
 import base64
+import os
 
 st.title("Generate your own avatar :dog:")
 
@@ -18,11 +19,10 @@ project = st.radio("Project Select", project_names)
 if project == 'Foxiez':
     st.subheader(project)
 
-    list_background = ['rice', 'pink', 'yellow', 'green', 'blue-dots', 'green-dots', 'yellow-dots', 'snow']
-    list_expressions = ['default-smile', 'eyes-closed', 'frown', 'kawaii-smile', 'sad', 'sleepy', 'sophisticated', 'wink']
-    list_hats = ['none', 'brim-bucket', 'bucket', 'birthday-hat', 'chef-hat', 'crown', 'mushroom', 'poop', 'propeller-hat', 'straw-hat']
-    list_clothings = ['default-body', 'apron', 'stripe-apron', 'blue-collar-shirt', 'blue-hoodie', 'blue-tie',
-                      'fish-tshirt', 'pink-hoodie', 'poop-tshirt', 'red-collar-shirt', 'scarf']
+    list_background = [os.path.splitext(f)[0] for f in os.listdir('./png/foxie/background')]
+    list_expressions = [os.path.splitext(f)[0] for f in os.listdir('./png/foxie/expressions')]
+    list_hats = [os.path.splitext(f)[0] for f in os.listdir('./png/foxie/hats')]
+    list_clothings = [os.path.splitext(f)[0] for f in os.listdir('./png/foxie/clothings')]
 
     col1, col2 = st.columns(2)
     option_expressions = col1.selectbox('Expressions', list_expressions)
