@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c13b9a3c-7641-4455-8842-f6eb3b9ec0cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foxie.png" beforeDir="false" afterPath="$PROJECT_DIR$/foxie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/clothings/default-body.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/clothings/default-body.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/clothings/stripe-apron.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/clothings/stripe-apron.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/clothings/vest-and-tie.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/clothings/vest-and-tie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/default-ears.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/default-ears.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/expressions/blush.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/expressions/blush.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/hats/poop.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/hats/poop.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/streamlit_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state>
+              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -91,10 +98,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1190" />
-    <option name="y" value="-10" />
-    <option name="width" value="1220" />
-    <option name="height" value="1320" />
+    <option name="x" value="952" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,10 +184,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -191,7 +197,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34560907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26435536" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -245,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/streamlit_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state>
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
