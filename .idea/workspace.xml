@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c13b9a3c-7641-4455-8842-f6eb3b9ec0cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/blue-dots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/background/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/background/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/yellow-dots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/background/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/clothings/default-body.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/clothings/default-body.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/unique/beach.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/unique/beach.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +187,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.058635395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
