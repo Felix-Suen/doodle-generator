@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c13b9a3c-7641-4455-8842-f6eb3b9ec0cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/png/foxie/background/green and blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/foxie/background/orange and purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foxie.png" beforeDir="false" afterPath="$PROJECT_DIR$/foxie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/foxie/background/stars.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/background/stars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/hats/pink-bow.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/hats/pink-bow.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/nft.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -258,7 +262,7 @@
     <entry file="file://$PROJECT_DIR$/nft.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
