@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c13b9a3c-7641-4455-8842-f6eb3b9ec0cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/foxie.png" beforeDir="false" afterPath="$PROJECT_DIR$/foxie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/background/city.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/background/city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/clothings/gold medal.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/clothings/gold medal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/clothings/rocket-shirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/foxie/clothings/rocket-shirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/foxie/expressions/fire.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +184,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.059168443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
