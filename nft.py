@@ -15,8 +15,8 @@ while count <= 29:
     first_step = Image.alpha_composite(background, decoration)
     second_step = Image.alpha_composite(first_step, poster)
     third_step = Image.alpha_composite(second_step, balloon)
-    fourth_step = Image.alpha_composite(third_step, hat)
-    final = Image.alpha_composite(fourth_step, face)
+    fourth_step = Image.alpha_composite(third_step, face)
+    final = Image.alpha_composite(fourth_step, hat)
 
     count += 1
     final.save('./collection/generated-%s.png' % count)

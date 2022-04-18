@@ -42,8 +42,8 @@ if not unique:
     step1 = Image.alpha_composite(background, clothes)
     step2 = Image.alpha_composite(step1, ear)
     step3 = Image.alpha_composite(step2, head)
-    step4 = Image.alpha_composite(step3, hat)
-    final = Image.alpha_composite(step4, expression)
+    step4 = Image.alpha_composite(step3, expression)
+    final = Image.alpha_composite(step4, hat)
 
     final.save('./foxie.png')
     col2.image(Image.open("./foxie.png"))
